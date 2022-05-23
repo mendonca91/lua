@@ -11,7 +11,7 @@ export function Header() {
             Home
           </a>
           <a href="/posts">Portfólio</a>
-          <a href="/posts">Sobre mim</a>
+          <a href="#about-me">Sobre mim</a>
           <a href="/posts">Contato</a>
         </nav>
       </div>
