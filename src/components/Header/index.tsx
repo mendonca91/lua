@@ -10,9 +10,9 @@ export function Header() {
           <a className={styles.active} href="">
             Home
           </a>
-          <a href="/posts">Portfólio</a>
+          <a href="#portfolio">Portfólio</a>
           <a href="#about-me">Sobre mim</a>
-          <a href="/posts">Contato</a>
+          <a href="#contact">Contato</a>
         </nav>
       </div>
     </header>

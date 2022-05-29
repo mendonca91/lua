@@ -1,0 +1,38 @@
+.Container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--cyan-500);
+  padding: 4rem;
+}
+
+.UserImg{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    border-radius: 10px;
+  }
+}
+
+.UserText{
+  width: 70%;
+
+  h2{
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+
+  p{
+    width: 700px;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+  }
+}

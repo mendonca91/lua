@@ -27,7 +27,13 @@ export default function Home() {
           <h3>Também terá acesso ao meu gitHub e meu contato.</h3>
 
           <div>
-            <a href="">Github</a>
+            <a
+              href="https://github.com/luanafraga"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Github
+            </a>
             <a
               href="https://www.linkedin.com/in/luana-fraga-63a794193/"
               target={"_blank"}
