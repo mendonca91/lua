@@ -1,14 +1,14 @@
 export const portfolio = [
   {
     id: 1,
-    img: "images/portfolio/vendas.jpg",
+    img: "images/portfolio/fraude.jpg",
     title: "Projeto Detecção de Fraude",
     description: `O objetivo deste projeto é a detecção, e consequentemente a diminuição de fraudes, identificando os padrões de compra de cada cliente a partir de informações como nome, cartão de crédito e documentos pessoais.`,
     url: "https://github.com/luanafraga/DETECCAO-DE-FRAUDE",
   },
   {
     id: 2,
-    img: "images/portfolio/vendas.jpg",
+    img: "images/portfolio/churn.jpg",
     title: "Projeto Churn Rate",
     description: `O objetivo deste projeto é avaliar e reduzir a Taxa de Evasão de Clientes, conhecido como Churn Rate.`,
     url: "https://github.com/luanafraga/CHURN-RATE",
