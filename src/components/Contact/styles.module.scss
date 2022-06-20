@@ -1,3 +1,5 @@
+@use "../../styles//devices";
+
 .sectionContact{
   background-color: var(--cyan-500);
 }
@@ -24,6 +26,14 @@
   a{
     font-weight: 700;
     text-decoration: underline;
+  }
+
+  @media screen and (max-width: devices.$tablet) {
+    margin: 0 2rem;
+
+    p{
+      margin-top: 0.5rem;
+    }
   }
 }
 

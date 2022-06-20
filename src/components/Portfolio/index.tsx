@@ -7,15 +7,20 @@ export default function Portfolio() {
       <h2 className={styles.title}>Portfólio</h2>
       <div className={styles.portfolioContent}>
         {portfolio.map((projeto) => (
-          <>
-            <div key={projeto.id} className={styles.portfolioItem}>
+          <a
+            key={projeto.id}
+            href={projeto.url}
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <div className={styles.portfolioItem}>
               <img src={projeto.img} alt={projeto.title} />
               <h3>{projeto.title}</h3>
               <div className={styles.portfolioHover}>
                 <p>{projeto.description}</p>
               </div>
             </div>
-          </>
+          </a>
         ))}
       </div>
     </section>

@@ -1,9 +1,17 @@
+
+@use "../../styles/devices";
+
 .Container{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   background-color: var(--cyan-500);
   padding: 4rem;
+  flex-direction: row;
+
+  @media screen and (max-width: devices.$tablet) {
+    flex-direction: column;
+  }
 }
 
 .UserImg{
@@ -34,5 +42,17 @@
     width: 30px;
     height: 30px;
     margin-right: 1rem;
+  }
+
+  @media screen and (max-width: devices.$tablet) {
+    width: 100%;
+
+    h2{
+      margin-top: 1rem;
+    }
+
+    p{
+      max-width: 100%;
+    }
   }
 }
