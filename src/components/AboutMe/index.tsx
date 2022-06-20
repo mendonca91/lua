@@ -12,14 +12,19 @@ export function AboutMe() {
         <h2>Oi, eu sou Luana Fraga.</h2>
 
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-          maiores nemo similique eum placeat quisquam unde debitis molestiae, ab
-          a. Tempore aut rem beatae sed consequuntur quasi ut provident magni!
+          Desde criança apaixonada pelos números, sou uma pessoa apaixonada por
+          tecnologia e otimização de processos. Me formei em Engenharia Civil no
+          ano de 2013 pela UNIVERSIDADE FEDERAL DE SERGIPE, com experiência de 6
+          anos na área de Planejamento e Controle de Custos e na Construção
+          Civil.
         </p>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-          maiores nemo similique eum placeat quisquam unde debitis molestiae, ab
-          a. Tempore aut rem beatae sed consequuntur quasi ut provident magni!
+          Finalizei um MBA em Planejamento e Controle em 2016. Certificada pela
+          ANCORD em 2019, atuando na área do mercado financeiro até os dias
+          atuais. Apaixonada pela área de Data Science com certificações em
+          cursos de Python, Ciência de Dados e Análise de Dados pela Alura e
+          Data Science Academy.b a. Tempore aut rem beatae sed consequuntur
+          quasi ut provident magni!
         </p>
 
         <a
